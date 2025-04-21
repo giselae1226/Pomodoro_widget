@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: #E09500; /* Color de fondo del Pomodoro */
+  background-color: transparent; /* Fondo del Pomodoro transparente */
 }
 
 #root {
@@ -32,11 +32,11 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
-  width: 90%; /* Hacer el reloj responsivo */
-  max-width: 350px; /* Ancho máximo */
+  background-color: #E09500; /* Color de fondo del reloj */
+  width: 80%; /* Hacer el reloj más pequeño */
+  max-width: 300px; /* Ancho máximo */
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px; /* Reducir el padding para hacerlo más pequeño */
   box-shadow: 10px 10px sienna;
 }
 
