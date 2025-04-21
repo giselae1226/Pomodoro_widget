@@ -36,7 +36,7 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: #E09500; 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -48,7 +48,7 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: #F1EEAA;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 3px 3px rgb(121, 145, 141) inset;
